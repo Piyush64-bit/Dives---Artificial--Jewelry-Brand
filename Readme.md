@@ -1,26 +1,25 @@
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-red.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 
 <div align="center">
   <table>
     <tr>
       <td align="left" style="vertical-align: middle;">
-        <img src="https://raw.githubusercontent.com/Piyush64-bit/Dives---Artificial--Jewelry-Brand/main/public/favicon.png" alt="Dives Logo" width="100" />
+        <div align="center">
+        <img src="https://raw.githubusercontent.com/Piyush64-bit/Dives---Artificial--Jewelry-Brand/master/public/2.png" alt="Dives Logo" width="100" />
         <h2 style="color: #d97706; margin-top: 10px;">
           Dives –<br/>
-          The Elegant Artificial Jewelry Brand<br/>
-          Showcasing Sparkle with Style ✨
+          Shine Every Day!
         </h2>
+        </div>
       </td>
       <td align="right">
-        <img src="https://raw.githubusercontent.com/Piyush64-bit/Dives---Artificial--Jewelry-Brand/main/public/screenshots/1gif.gif" alt="Dives Demo" width="400" />
+        <img src="https://raw.githubusercontent.com/Piyush64-bit/Dives---Artificial--Jewelry-Brand/master/public/screenshots/1gif.gif" alt="Dives Demo" width="400" />
       </td>
     </tr>
   </table>
 </div>
 
-
-# ✨ ShopDives – Shine Every Day! ✨
 
 Welcome to **ShopDives**, your go-to destination for stunning artificial jewelry that brings elegance, style, and confidence to your everyday look.  
 Discover our handpicked collections, crafted with love and designed to make you shine! 💍🌸
@@ -55,15 +54,16 @@ Discover our handpicked collections, crafted with love and designed to make you 
 
 ## 🛠️ Tech Stack
 
-• React + TypeScript
-• Vite ⚡
-• Tailwind CSS 🎨
-• Lucide React Icons 🖼️
+- React + TypeScript
+- Vite ⚡
+- Tailwind CSS 🎨
+- Lucide React Icons 🖼️
 
 ---
 
 ## 📁 Project Structure
 
+```
 ├── public/           # Static assets (images, favicon)
 ├── src/
 │   ├── components/   # React components (Hero, Gallery, Footer, etc.)
@@ -73,7 +73,7 @@ Discover our handpicked collections, crafted with love and designed to make you 
 ├── [tailwind.config.js](http://_vscodecontentref_/3)
 ├── [vite.config.ts](http://_vscodecontentref_/4)
 └── ...
-
+```
 ---
 
 ## 📸 Preview
