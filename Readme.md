@@ -54,15 +54,16 @@ Discover our handpicked collections, crafted with love and designed to make you 
 
 ## 🛠️ Tech Stack
 
-• React + TypeScript
-• Vite ⚡
-• Tailwind CSS 🎨
-• Lucide React Icons 🖼️
+- React + TypeScript
+- Vite ⚡
+- Tailwind CSS 🎨
+- Lucide React Icons 🖼️
 
 ---
 
 ## 📁 Project Structure
 
+```
 ├── public/           # Static assets (images, favicon)
 ├── src/
 │   ├── components/   # React components (Hero, Gallery, Footer, etc.)
@@ -72,7 +73,7 @@ Discover our handpicked collections, crafted with love and designed to make you 
 ├── [tailwind.config.js](http://_vscodecontentref_/3)
 ├── [vite.config.ts](http://_vscodecontentref_/4)
 └── ...
-
+```
 ---
 
 ## 📸 Preview
