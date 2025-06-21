@@ -32,7 +32,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-orange-300 via-pink-300 to-yellow-300 rounded-full blur-3xl opacity-30 group-hover:opacity-50 transition-opacity duration-700 animate-pulse"></div>
             <div className="relative bg-white/80 backdrop-blur-sm rounded-full p-8 shadow-2xl transform transition-all duration-700 group-hover:scale-110 group-hover:rotate-6 animate-float">
               <img 
-                src="/1.png" 
+                src="/3.png" 
                 alt="ShopDives Logo" 
                 className="w-20 h-20 md:w-24 md:h-24 object-contain transition-all duration-500 group-hover:brightness-110"
               />

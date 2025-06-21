@@ -12,11 +12,12 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-br from-orange-100 via-pink-100 to-yellow-100 text-zinc-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* Main Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4 group">
-              <div className="relative ">
+              <div className="relative">
                 <img src="/2.png" alt="ShopDives Logo" className="w-10 h-10" />
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-300 via-pink-300 to-yellow-300 opacity-0 group-hover:opacity-30 rounded-full blur-sm transition-opacity duration-500"></div>
               </div>
@@ -29,7 +30,7 @@ const Footer = () => {
               jewelry. Quality, elegance, and affordability - all in one place.
             </p>
 
-            {/* Social Links */}
+            {/* Social Icons */}
             <div className="flex space-x-4">
               <a
                 href="https://www.instagram.com/shopdives.in"
@@ -110,7 +111,7 @@ const Footer = () => {
 
         {/* Newsletter */}
         <div className="mt-12 pt-8 border-t border-zinc-300">
-          <div className="max-w-md mx-auto text-center">
+          <div className="max-w-xl mx-auto text-center">
             <h3 className="text-lg font-semibold mb-4 text-rose-800 font-serif">
               Stay Updated
             </h3>
@@ -118,13 +119,13 @@ const Footer = () => {
               Subscribe to get notifications about new collections and exclusive
               offers.
             </p>
-            <div className="flex space-x-2">
+            <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-2">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 px-4 py-2 rounded-lg bg-white border border-zinc-300 focus:border-rose-400 focus:outline-none text-zinc-800 placeholder-zinc-500 shadow-sm"
+                className="flex-1 px-4 py-2 rounded-lg bg-white border border-zinc-300 focus:border-rose-400 focus:outline-none text-zinc-800 placeholder-zinc-500 shadow-sm w-full"
               />
-              <button className="bg-gradient-to-r from-orange-400 via-pink-400 to-yellow-400 px-6 py-2 rounded-lg font-semibold hover:shadow-lg transition-shadow text-white">
+              <button className="w-full sm:w-auto bg-gradient-to-r from-orange-400 via-pink-400 to-yellow-400 px-6 py-2 rounded-lg font-semibold hover:shadow-lg transition-shadow text-white">
                 Subscribe
               </button>
             </div>
@@ -132,11 +133,11 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-zinc-300 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-zinc-500 text-sm mb-4 md:mb-0">
+        <div className="mt-12 pt-8 border-t border-zinc-300 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+          <div className="text-zinc-500 text-sm">
             © 2025 ShopDives. All rights reserved.
           </div>
-          <div className="flex items-center text-zinc-500 text-sm">
+          <div className="flex items-center justify-center text-zinc-500 text-sm">
             Designed & Developed with{" "}
             <Heart
               className="w-4 h-4 mx-1 text-red-500 animate-pulse"
